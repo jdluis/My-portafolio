@@ -1,26 +1,40 @@
 import React from 'react';
+import { motion } from "framer-motion";
+import { Link } from 'react-router-dom';
+import imgMe from '../../assets/meAvatar.png';
 import './index.css';
-import imgMe from './meAvatar.png';
 
 function Home () {
     return (
-        <div className='container'>
+        <motion.div className='container'
+            initial={{ y: "20%", opacity:0}}
+            animate={{ y: 0, opacity:1}}
+            transition={{ duration: 1.5 }}
+        >
             <div className='section-left'>
-                <div>
-                    <h1>Hi my name is <span className='special-text'>Jose Daniel!</span></h1>
+                <div   
+                    
+                >
+                    <h1
+                        initial={{ x: "-30%", scale: 0.5, opacity:0}}
+                        animate={{ x: 0, scale: 1, opacity:1}}
+                        transition={{ duration: 1.5 }}
+                    >
+                        Hi my name is <span className='special-text'>Jose Daniel!</span>
+                    </h1>
                     <div className='divisor'/>
-                    <p>This is my website, if you are here is because you will love to know more about me and who i am, so check in the following buttons.</p>
+                    <p><span className='special-text'>A</span>s a web developer I want to go as far as my curiosity allows me, discover new challenges, improve day by day and work on projects with a great social impact.</p>
                 </div>
-                <div>
-                    <button>More About Me</button>
-                    <button>Contact Me</button>
+                <div className='btn-container'>
+                    <Link to='/about' className='btn'>More About Me</Link>
+                    <Link to='/contact' className='btn'>Contact Me</Link>
                 </div>
             </div>
             <div className='section-right'>
                 <img src={imgMe}/>
             </div>
-        </div>
+        </motion.div>
     );
-}
+};
 
 export { Home };

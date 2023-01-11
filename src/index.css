@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
     --palleta-orange: rgb(216, 92, 54);
@@ -6,3 +7,31 @@
     --pallete-white-2: rgb(227, 214, 190);
     --palleta-grey: #a7a7a7;
 }
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-color: var(--palleta-dark);
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+
+
+
+    /*Animacion, desactivada por ahora*/
+    /*
+    background-color: #568091;
+    filter: progid: DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#568091', endColorstr='#029797');
+    background-image: url(//img.alicdn.com/tps/TB1d.u8MXXXXXXuXFXXXXXXXXXX-1900-790.jpg);
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(0, #568091), color-stop(100%, #020202));
+    background-image: -webkit-linear-gradient(135deg, #31312f, #393635ea);
+    background-image: -moz-linear-gradient(45deg, #152235, #c9832d);
+    background-image: -ms-linear-gradient(45deg, #30343a 0, #492222 100%);
+    background-image: -o-linear-gradient(45deg, #19181a, #1e1812);
+    background-image: linear-gradient(135deg, #291d21, #020202);
+    text-align: center;
+    margin: 0px;
+
+    */
+
+}
+

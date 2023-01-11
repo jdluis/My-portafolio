@@ -11,13 +11,13 @@ function Nav () {
     return (
         <div>
             <div className='section-container-left'>
+            </div>
                 <nav className='nav-container'>
                     <Link to='/' className='nav-links'><RiAncientPavilionLine className='icon-menu' />Home</Link>
                     <Link to='/about' className='nav-links'><RiAccountCircleLine className='icon-menu'/>About</Link>
                     <Link to='/works' className='nav-links'><RiLightbulbFlashLine className='icon-menu'/>Works</Link>
                     <Link to='/contact' className='nav-links'><RiHealthBookLine className='icon-menu'/>Contact</Link>
                 </nav>
-            </div>
             <div className='section-container-right'>
                 <div className='img-container'>
                     <img src={iconReact}/>

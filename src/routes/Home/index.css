@@ -1,11 +1,12 @@
 .container {
-    height: 100vh;
+    height: 100vh; /*Problema al poner vh se desplaza el canvas, mirar mas adelante*/
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
+    gap: 4em;
 }
 
 .section-right {
@@ -19,20 +20,25 @@
 }
 
 .section-left {
-    width: 50%;
-    background-color: rgba(46, 52, 52, 0.445);
+    width: 45%;
 }
 
 .section-left h1{
     color: var(--palleta-white);
+
 }
 
 .section-left p{
     color: var(--palleta-white);
+    text-align: justify;
+    font-weight: 300;
+    font-size: 1vw;
+    line-height: 24.534px;
 }
 
 .special-text {
     color: var(--palleta-orange);
+    font-weight: bolder;
 }
 
 .divisor {
@@ -40,4 +46,25 @@
     width: 40%;
     background-color: var(--palleta-orange);
     margin-left: 10px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: left;
+    gap: 2em;
+}
+
+.btn {
+    text-decoration: none;
+    color: var(--palleta-white);
+    padding: .6em 1.5em;
+    border: 1px solid var(--palleta-orange);
+    border-radius: 10px;
+    font-weight: 300;
+
+    
+}
+
+.btn:hover {
+    border-style: outset;
 }

@@ -6,7 +6,6 @@ import { Home } from "./routes/Home";
 import { About } from "./routes/About";
 import { Works } from "./routes/Works";
 import { Contact } from "./routes/Contact";
-import './index.css';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
