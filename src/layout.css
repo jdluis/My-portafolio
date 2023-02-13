@@ -1,0 +1,10 @@
+.container {
+    height: 100vh; /*Problema al poner vh se desplaza el canvas, mirar mas adelante*/
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 4em;
+}
