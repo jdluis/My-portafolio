@@ -6,8 +6,9 @@ import './index.css';
 
 function Home () {
     return (
-        <motion.div className='container'
-            initial={{ y: "20%", opacity:0}}
+        <motion.div className='container' 
+            id='header'
+            initial={{ y: "10%", opacity:0}}
             animate={{ y: 0, opacity:1}}
             transition={{ duration: 1.5 }}
         >

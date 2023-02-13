@@ -64,6 +64,26 @@ function About() {
           <h1>Experience</h1>
           <div className="line"></div>
         </div>
+
+        <div className="resume-container">
+            <div className="resume-card">
+              <img className="icon" src={folderIcon} />
+              <h4>Repositorys</h4>
+              <p>44</p>
+            </div>
+
+            <div className="resume-card">
+              <img className="icon" src={folderIcon} />
+              <h4>Since</h4>
+              <p>2019</p>
+            </div>
+
+            <div className="resume-card">
+              <img className="icon" src={locationIcon} />
+              <h4>Location</h4>
+              <p>Canary Island, Spain</p>
+            </div>
+          </div>
       </div>
 
       <div id="technologies-section">
@@ -72,6 +92,26 @@ function About() {
           <h1>technologies</h1>
           <div className="line"></div>
         </div>
+
+        <div className="resume-container">
+            <div className="resume-card">
+              <img className="icon" src={folderIcon} />
+              <h4>Repositorys</h4>
+              <p>44</p>
+            </div>
+
+            <div className="resume-card">
+              <img className="icon" src={folderIcon} />
+              <h4>Since</h4>
+              <p>2019</p>
+            </div>
+
+            <div className="resume-card">
+              <img className="icon" src={locationIcon} />
+              <h4>Location</h4>
+              <p>Canary Island, Spain</p>
+            </div>
+          </div>
       </div>
     </div>
   );

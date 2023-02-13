@@ -13,8 +13,6 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     background-color: var(--palleta-dark);
     font-family: 'Montserrat', sans-serif;
-    overflow: hidden;
-
 
 
     /*Animacion, desactivada por ahora*/
@@ -33,6 +31,5 @@ body {
     margin: 0px;
 
     */
-
 }
 
