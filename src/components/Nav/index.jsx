@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import { RiAncientPavilionLine, RiAccountCircleLine, RiLightbulbFlashLine, RiHealthBookLine, RiArrowDownLine } from "react-icons/ri";
 import './index.css';
 
-const iconReact = 'src/assets/react.svg';
-const iconVite = 'src/assets/vitejs.svg';
+const iconReact = 'src/assets/icons/react.svg';
+const iconVite = 'src/assets/icons/vitejs.svg';
 
 
 function Nav () {

@@ -28,6 +28,10 @@
     font-size: 0.6rem;
 }
 
+.title p {
+   width: 100%;
+}
+
 .title .line {
     width: 15vw;
     height: 2px;
@@ -64,8 +68,21 @@
 }
 
 .resume-card .icon {
-    width: 24px;
+    width: 30px;
     color: var(--palleta-orange);
 }
+
+
+/* Tech Section*/
+
+#technologies-section .resume-container{
+    max-width: 800px;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+    gap: 5px;
+    margin-top: 40px;
+}
+
 
 /* -- Experience -- */
