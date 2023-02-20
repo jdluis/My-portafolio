@@ -1,88 +1,99 @@
 /* -- Introduction --*/
 
 #introduction-section .content {
-    width: 70%;
-    margin: auto;
+  width: 80%;
+  margin: auto;
 }
 
 .text-container {
-    letter-spacing: 2px;
-    font-weight: 300;
+  letter-spacing: 2px;
+  font-weight: 300;
 }
 
-.text-container p:first-of-type{
-    margin-bottom: 40px;
+.text-container p:first-of-type {
+  margin-bottom: 40px;
 }
 
-.text-container q, em {
-    font-size: .8rem;
+.text-container q,
+em {
+  font-size: 0.8rem;
 }
 
 .title {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    font-size: 0.6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 0.6rem;
 }
 
 .title p {
-   width: 100%;
+  width: 100%;
 }
 
 .title .line {
-    width: 15vw;
-    height: 2px;
-    background-color: var(--palleta-orange);
-    margin: 0 20px;
+  width: 15vw;
+  height: 2px;
+  background-color: var(--palleta-orange);
+  margin: 0 20px;
 }
 
 /*--> Cards */
 
 .resume-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-    margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-top: 40px;
 }
 
 .resume-card {
-    width: 200px;
-    border: 1px solid rgba(165, 161, 161, 0.18);
-    background-color: rgba(96, 96, 96, 0.048);
-    text-align: center;
-    border-radius: 10px;
-    padding-top: 10px;
+  width: 200px;
+  border: 1px solid rgba(165, 161, 161, 0.18);
+  background-color: rgba(96, 96, 96, 0.048);
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 10px;
 }
 
-.resume-card h4{
-    font-weight: 400;
+.resume-card h4 {
+  font-weight: 400;
 }
 
-.resume-card p{
-    color: var(--text-color);
-    font-weight: 200;
+.resume-card p {
+  color: var(--text-color);
+  font-weight: 200;
 }
 
 .resume-card .icon {
-    width: 30px;
-    color: var(--palleta-orange);
+  width: 30px;
+  height: 20px;
 }
 
+.color-orange {
+  color: var(--palleta-orange);
+}
+
+.color-white {
+  color: white;
+}
+
+.color-black {
+  color: black;
+}
 
 /* Tech Section*/
 
-#technologies-section .resume-container{
-    max-width: 800px;
-    flex-wrap: wrap;
+#technologies-section .resume-container {
+  max-width: 800px;
+  flex-wrap: wrap;
 
-    justify-content: space-evenly;
-    gap: 5px;
-    margin-top: 40px;
+  justify-content: space-evenly;
+  gap: 5px;
+  margin-top: 40px;
 }
-
 
 /* -- Experience -- */

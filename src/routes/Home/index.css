@@ -1,57 +1,56 @@
 .section-right {
-    width: 30%;
+  width: 30%;
 }
 
 .section-right img {
-    border-radius: 30px;
-    background-color: var(--palleta-orange);
-    width: 250px;
+  border-radius: 30px;
+  background-color: var(--palleta-orange);
+  width: 250px;
 }
 
 .section-left {
-    width: 45%;
+  width: 45%;
 }
 
-.section-left h1{
-    color: var(--palleta-white);
-
+.section-left h1 {
+  color: var(--palleta-white);
 }
 
-.section-left p{
-    color: var(--palleta-white);
-    text-align: justify;
-    font-weight: 300;
-    font-size: 1rem;
-    line-height: 24.534px;
+.section-left p {
+  color: var(--palleta-white);
+  text-align: justify;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 24.534px;
 }
 
 .special-text {
-    color: var(--palleta-orange);
-    font-weight: bolder;
+  color: var(--palleta-orange);
+  font-weight: bolder;
 }
 
 .divisor {
-    height: 1px;
-    width: 40%;
-    background-color: var(--palleta-orange);
-    margin-left: 10px;
+  height: 1px;
+  width: 40%;
+  background-color: var(--palleta-orange);
+  margin-left: 10px;
 }
 
 .btn-container {
-    display: flex;
-    justify-content: left;
-    gap: 2em;
+  display: flex;
+  justify-content: left;
+  gap: 2em;
 }
 
 .btn {
-    text-decoration: none;
-    color: var(--palleta-white);
-    padding: .6em 1.5em;
-    border: 1px solid var(--palleta-orange);
-    border-radius: 10px;
-    font-weight: 300;
+  text-decoration: none;
+  color: var(--palleta-white);
+  padding: 0.6em 1.5em;
+  border: 1px solid var(--palleta-orange);
+  border-radius: 10px;
+  font-weight: 300;
 }
 
 .btn:hover {
-    border-style: outset;
+  border-style: outset;
 }

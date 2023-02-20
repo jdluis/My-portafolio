@@ -1,0 +1,139 @@
+/* -- Introduction --*/
+#introduction-section {
+  width: 70%;
+  margin: auto;
+}
+
+#contact .container-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+#contact .list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  font-size: 0.9rem;
+  text-align: center;
+  color: var(--palleta-grey);
+}
+
+.li-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.li-list .icon {
+  width: 30px;
+  height: 20px;
+  color: var(--palleta-orange);
+}
+
+/* Cart Post */
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper .icon {
+  width: 60px;
+  height: 50px;
+  color: black;
+}
+
+.mail {
+  width: 300px;
+  height: 200px;
+  background-color: #ff8789;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.mail::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid #ff393c;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid #ff393c;
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 5;
+}
+
+.mail::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-left: 150px solid #ff5355;
+  border-right: 150px solid transparent;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid #ff5355;
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 4;
+}
+
+.cover:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-top: 100px solid #ff8789;
+  border-bottom: 100px solid transparent;
+
+  z-index: 5;
+  transform-origin: top;
+  transform: rotateX(0deg);
+  transition: all 1s 1s linear;
+}
+
+.letter {
+  position: absolute;
+  z-index: 3;
+  top: 0px;
+  left: 10px;
+  background-color: #f8f8f8;
+  width: 280px;
+  height: 180px;
+  border-radius: 20px;
+  transition: all 1s ease;
+  overflow: hidden;
+  text-align: center;
+  color: black;
+}
+
+.letter img {
+  width: 40px;
+}
+
+.mail:hover .cover:before {
+  transform: rotateX(180deg);
+  transition: all 1s ease;
+  z-index: 1;
+}
+
+.mail:hover .letter {
+  top: -80px;
+  transition: all 1s 1s ease;
+}

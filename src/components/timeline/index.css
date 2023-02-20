@@ -1,11 +1,9 @@
-
-
 #timeline ul {
   padding: 50px 0;
 }
 
 #timeline p {
-    font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 #timeline ul li {
@@ -19,7 +17,7 @@
 
 #timeline ul li::after {
   background: white;
-  content: "";
+  content: '';
   width: 20px;
   height: 20px;
   border-radius: 50%;
