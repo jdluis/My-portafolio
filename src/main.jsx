@@ -8,17 +8,15 @@ import { Works } from './routes/Works';
 import { Contact } from './routes/Contact';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path='about' element={<About />} />
-          <Route path='works' element={<Works />} />
-          <Route path='contact' element={<Contact />} />
-          <Route path='*' element={<Navigate replace to='/' />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path='about' element={<About />} />
+        <Route path='works' element={<Works />} />
+        <Route path='contact' element={<Contact />} />
+        <Route path='*' element={<Navigate replace to='/' />} />
+      </Route>
+    </Routes>
+  </BrowserRouter>,
 );

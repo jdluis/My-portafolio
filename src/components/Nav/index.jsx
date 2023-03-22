@@ -13,6 +13,12 @@ const iconReact = 'src/assets/icons/react.svg';
 const iconVite = 'src/assets/icons/vitejs.svg';
 
 function Nav() {
+
+  //check this handle, doesn't work properly
+  const handleGoBottom = () => {
+    window.scrollTo(0, document.body.scrollHeight); 
+  }
+  
   return (
     <div>
       <div className='section-container-left'></div>
@@ -39,8 +45,8 @@ function Nav() {
           <img src={iconReact} />
           <img src={iconVite} />
         </div>
-        <div className='arrow-container'>
-          <RiArrowDownLine className='arrow' />
+        <div onClick={handleGoBottom} className='arrow-container '>
+          <RiArrowDownLine  className='arrow' />
         </div>
       </div>
     </div>

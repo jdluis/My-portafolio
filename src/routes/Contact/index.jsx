@@ -20,7 +20,7 @@ function Contact() {
 
       <div>
         <p>
-          <span class='special-text'>Would</span> you like to know more? Don't hesitate to contact
+          <span className='special-text'>Would</span> you like to know more? Don't hesitate to contact
           me!
         </p>
       </div>

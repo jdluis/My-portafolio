@@ -1,0 +1,25 @@
+.hexagono {
+  position: relative;
+  width: 160px;
+  height: 150px;
+  background-color: var(--text-color-project);
+  display: grid;
+  place-content: center;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  transition: all 1s linear;
+  cursor: pointer;
+}
+
+.hexagono:hover {
+  transition: all 1s linear;
+}
+
+.hexagono-titulo {
+  font-size: 18px;
+  text-align: center;
+  color: var(--color-card-secondary);
+}
+
+.hexagono:hover .hexagono-titulo {
+  font-size: 22px;
+}

@@ -29,3 +29,9 @@
   flex-direction: column;
   max-width: 800px;
 }
+
+#works {
+  color: white;
+  flex-direction: column;
+  max-width: 800px;
+}

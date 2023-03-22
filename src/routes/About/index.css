@@ -73,18 +73,6 @@ em {
   height: 20px;
 }
 
-.color-orange {
-  color: var(--palleta-orange);
-}
-
-.color-white {
-  color: white;
-}
-
-.color-black {
-  color: black;
-}
-
 /* Tech Section*/
 
 #technologies-section .resume-container {

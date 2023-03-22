@@ -80,7 +80,9 @@
   width: 30px;
   height: 60px;
   color: var(--palleta-orange);
+  cursor: pointer;
 }
+
 
 .img-container img {
   width: 30px;

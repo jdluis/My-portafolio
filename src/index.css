@@ -7,6 +7,7 @@
   --pallete-white-2: rgb(227, 214, 190);
   --palleta-grey: #a7a7a7;
   --text-color: #e3d6be;
+  --text-color-project: #231f20;
 }
 
 body {
@@ -42,4 +43,32 @@ ul {
 }
 .border-circle {
   border-radius: 50%;
+}
+
+/* Colors */
+
+.color-orange {
+  color: var(--palleta-orange);
+}
+
+.color-white {
+  color: white;
+}
+
+.color-black {
+  color: black;
+}
+
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 2000ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open{
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+  opacity: 0;
 }
