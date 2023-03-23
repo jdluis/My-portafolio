@@ -42,8 +42,8 @@ function Nav() {
       </nav>
       <div className='section-container-right'>
         <div className='img-container'>
-          <img src={iconReact} />
-          <img src={iconVite} />
+          <img src={iconReact} alt="react icon"/>
+          <img src={iconVite} alt="vite icon"/>
         </div>
         <div onClick={handleGoBottom} className='arrow-container '>
           <RiArrowDownLine  className='arrow' />

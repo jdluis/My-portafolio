@@ -54,3 +54,26 @@
 .btn:hover {
   border-style: outset;
 }
+
+@media (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+  #header {
+    flex-direction: column;
+  }
+
+  #header .section-right {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  #header .btn-container {
+    gap: 8px;
+  }
+
+  #header .section-left {
+    width: 80%;
+  }
+}

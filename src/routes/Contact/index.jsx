@@ -20,8 +20,8 @@ function Contact() {
 
       <div>
         <p>
-          <span className='special-text'>Would</span> you like to know more? Don't hesitate to contact
-          me!
+          <span className='special-text'>Would</span> you like to know more? Don't hesitate to
+          contact me!
         </p>
       </div>
 
@@ -35,35 +35,37 @@ function Contact() {
             </div>
           </div>
         </div>
-        <ul className='list-container'>
-          <li className='li-list'>
-            <FaMapMarkerAlt className='icon' />
-            <h4>Direction</h4>
-          </li>
-          <li className='li-list'>
-            <FaMobileAlt className='icon' />
-            <h4>Telefono</h4>
-          </li>
-          <li className='li-list'>
-            <FaEnvelope className='icon' />
-            <h4>Correo</h4>
-          </li>
-        </ul>
+        <div className='container-of-lists'>
+          <ul className='list-container'>
+            <li className='li-list'>
+              <FaMapMarkerAlt className='icon' />
+              <h4>Canary Islands, Spain</h4>
+            </li>
+            <li className='li-list'>
+              <FaMobileAlt className='icon' />
+              <h4>+34 608 99 14 69</h4>
+            </li>
+            <li className='li-list'>
+              <FaEnvelope className='icon' />
+              <h4>jdluisdev@gmail.com</h4>
+            </li>
+          </ul>
 
-        <ul className='list-container'>
-          <li className='li-list'>
-            <FaLinkedin className='icon' />
-            <h4>linkedin</h4>
-          </li>
-          <li className='li-list'>
-            <FaInstagram className='icon' />
-            <h4>instagram</h4>
-          </li>
-          <li className='li-list'>
-            <FaTwitter className='icon' />
-            <h4>twitter</h4>
-          </li>
-        </ul>
+          <ul className='list-container'>
+            <li className='li-list'>
+              <FaLinkedin className='icon' />
+              <a href='www.linkedin.com/in/jdluis'>linkedin</a>
+            </li>
+            <li className='li-list'>
+              <FaInstagram className='icon' />
+              <a href='www.instagram.com/danieldeluis'>instagram</a>
+            </li>
+            <li className='li-list'>
+              <FaTwitter className='icon' />
+              <a href='https://twitter.com/JdLuisDev'>twitter</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );

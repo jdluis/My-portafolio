@@ -85,6 +85,20 @@
 
 
 .img-container img {
-  width: 30px;
-  height: 30px;
+  max-width: 30px;
+  max-height: 30px;
+  width: 100%;
+  height: auto;
+}
+
+
+@media (max-width: 800px) {
+  .arrow-container .arrow {
+    max-width: 30px;
+    max-height: 30px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 20px;
+  }
 }

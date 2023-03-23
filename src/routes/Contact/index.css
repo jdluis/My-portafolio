@@ -23,6 +23,15 @@
   color: var(--palleta-grey);
 }
 
+#contact  ul a {
+  text-decoration: none;
+  color: white;
+}
+
+#contact  ul a:hover {
+  text-decoration: underline;
+}
+
 .li-list {
   display: flex;
   flex-direction: row;
@@ -136,4 +145,22 @@
 .mail:hover .letter {
   top: -80px;
   transition: all 1s 1s ease;
+}
+
+.container-of-lists {
+  display: flex;
+}
+
+@media (max-width: 800px) {
+  .container-contact {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+
+  .container-of-lists ul:first-child {
+    padding-left: 0;
+  }
+  
+  /* Falta el responsive de la carta*/
 }
