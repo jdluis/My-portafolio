@@ -47,9 +47,11 @@
   #about {
     width: 90%;
     max-width: none;
+    overflow-x: hidden;
   }
 
   #works {
     width: 80%;
+    overflow-x: hidden;
   }
 }
