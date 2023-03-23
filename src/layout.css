@@ -48,4 +48,8 @@
     width: 90%;
     max-width: none;
   }
+
+  #works {
+    width: 80%;
+  }
 }
