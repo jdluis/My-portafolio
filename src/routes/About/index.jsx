@@ -3,16 +3,16 @@ import './index.css';
 import { FaCode, FaDna, FaFlag, FaSass, FaNodeJs, FaGithub, FaGitAlt } from 'react-icons/fa';
 import { SiHandlebarsdotjs } from 'react-icons/si';
 
-import reactIcon from '../../assets/icons/react.svg';
-import viteIcon from '../../assets/icons/vitejs.svg';
-import expressIcon from '../../assets/icons/icons8-express-js.svg';
+import reactIcon from '/assets/icons/react.svg';
+import viteIcon from '/assets/icons/vitejs.svg';
+import expressIcon from '/assets/icons/icons8-express-js.svg';
 
-import htmlIcon from '../../assets/icons/icons8-html-5.svg';
-import css3Icon from '../../assets/icons/icons8-css3.svg';
-import mongodbIcon from '../../assets/icons/mongodbIcon.svg';
-import figmaIcon from '../../assets/icons/icons8-figma.svg';
-import tailwindIcon from '../../assets/icons/icons8-tailwind-css.svg';
-import boostrapIcon from '../../assets/icons/boostrap.svg';
+import htmlIcon from '/assets/icons/icons8-html-5.svg';
+import css3Icon from '/assets/icons/icons8-css3.svg';
+import mongodbIcon from '/assets/icons/mongodbIcon.svg';
+import figmaIcon from '/assets/icons/icons8-figma.svg';
+import tailwindIcon from '/assets/icons/icons8-tailwind-css.svg';
+import boostrapIcon from '/assets/icons/boostrap.svg';
 import { Timeline } from '../../components/timeline';
 
 function About() {
