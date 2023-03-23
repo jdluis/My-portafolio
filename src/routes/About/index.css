@@ -85,3 +85,30 @@ em {
 }
 
 /* -- Experience -- */
+
+/* Responsive */
+
+
+@media (max-width: 800px) {
+  
+  #about #introduction-section{
+    width: 100%;
+  }
+
+  #about .text-container {
+    width: 100%;
+  }
+
+  #about .resume-container {
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #technologies-section .resume-container {
+    max-width: none;
+    width: 90%;
+    gap: 8px;
+  }
+}

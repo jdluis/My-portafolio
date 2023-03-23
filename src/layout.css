@@ -43,4 +43,9 @@
   #header {
     flex-direction: column;
   }
+
+  #about {
+    width: 90%;
+    max-width: none;
+  }
 }

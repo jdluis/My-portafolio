@@ -80,3 +80,56 @@
     left: -329px;
   }
 }
+
+@media (max-width: 800px) {
+  #timeline ul li {
+    width: 0;
+  }
+
+  #timeline ul li::after {
+    width: 0;
+    height: 0;
+  }
+
+  #timeline ul li div {
+    width: 300px;
+  }
+
+  #timeline ul li:nth-child(odd) div {
+    left: -140px;
+  }
+
+  #timeline ul li:nth-child(even) div {
+    left: -200px;
+  }
+
+  #timeline time {
+    margin-bottom: 10px;
+  }
+
+  #timeline ul li:nth-child(odd) div {
+    transform: translate3d(0, 0, 0);
+  }
+
+  #timeline ul li:nth-child(even) div {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@media (max-width: 450px) {
+  #timeline ul li {
+    width: 0;
+  }
+
+  #timeline ul li div {
+    width: 200px;
+  }
+
+  #timeline ul li:nth-child(odd) div {
+    left: -100px;
+  }
+
+  #timeline ul li:nth-child(even) div {
+    left: -100px;
+  }
+}
