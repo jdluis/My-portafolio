@@ -6,29 +6,34 @@
 
 #contact .container-contact {
   display: flex;
-  flex-wrap: wrap;
+  /*   flex-wrap: wrap; */
   justify-content: space-between;
   align-items: center;
   margin-top: 2rem;
+}
+
+.container-of-lists {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #contact .list-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: self-start;
   gap: 15px;
   font-size: 0.9rem;
   text-align: center;
   color: var(--palleta-grey);
 }
 
-#contact  ul a {
+#contact ul a {
   text-decoration: none;
   color: white;
 }
 
-#contact  ul a:hover {
+#contact ul a:hover {
   text-decoration: underline;
 }
 
@@ -147,20 +152,16 @@
   transition: all 1s 1s ease;
 }
 
-.container-of-lists {
-  display: flex;
-}
-
 @media (max-width: 800px) {
   .container-contact {
     flex-direction: column;
     gap: 20px;
   }
 
-
-  .container-of-lists ul:first-child {
-    padding-left: 0;
+  .container-of-lists {
+    gap: 20px;
   }
-  
-  /* Falta el responsive de la carta*/
+  .text-container {
+    width: 80%;
+  }
 }

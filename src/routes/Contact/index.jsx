@@ -18,7 +18,7 @@ function Contact() {
         <div className='line'></div>
       </div>
 
-      <div>
+      <div className='text-container'>
         <p>
           <span className='special-text'>Would</span> you like to know more? Don't hesitate to
           contact me!
