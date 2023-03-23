@@ -99,7 +99,6 @@ h4 {
   text-decoration: none;
 }
 
-
 /* Responsive */
 
 @media (max-width: 800px) {
@@ -117,14 +116,13 @@ h4 {
   }
 
   .description {
-    position:static;
+    position: static;
     width: 100%;
     text-align: center;
     padding: 15px 5px;
   }
-  
+
   .links-container {
     width: 100%;
   }
-  
- }
+}

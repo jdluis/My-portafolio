@@ -88,10 +88,8 @@ em {
 
 /* Responsive */
 
-
 @media (max-width: 800px) {
-  
-  #about #introduction-section{
+  #about #introduction-section {
     width: 100%;
   }
 

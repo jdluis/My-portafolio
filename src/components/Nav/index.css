@@ -118,7 +118,7 @@
   gap: 5px;
   align-items: center;
   position: relative;
-  padding: 0.4em .1em;
+  padding: 0.4em 0.1em;
   border: none;
   background-color: transparent;
   cursor: pointer;
@@ -130,7 +130,7 @@
   transition: all 1s ease-in-out;
 }
 
-#mobile-nav-container .nav-links:hover{
+#mobile-nav-container .nav-links:hover {
   border-bottom: 2px dashed white;
   border-right: 2px solid white;
   color: rgb(12, 12, 12);
