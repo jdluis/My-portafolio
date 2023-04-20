@@ -12,7 +12,7 @@ const projects = [
     demo: 'https://flexylearn.netlify.app',
     description:
       'The online platform that allows you to learn in a flexible and personalized way with courses taught by experts in different areas, from the comfort of your home and at your own pace, so that you can achieve your goals and continue to grow personally and professionally.',
-    techStack: ['JSX', 'TailwindCSS', 'React', 'Express', 'MongoDb', 'Mongoose', 'Ayax'],
+    techStack: ['TailwindCSS', 'ES6', 'HTML5', 'CSS3', 'React', 'Express', 'MongoDb', 'Mongoose', 'Ayax'],
     preview_img: '/assets/images/logoFlexiLearn.png',
   },
 
@@ -22,13 +22,13 @@ const projects = [
     subTitle: 'Practice',
     title: 'Talent Match',
     github: {
-      client: 'https://github.com/jdluis/flexi-learn-client',
-      server: 'https://github.com/jdluis/flexi-learn-server',
+      client: 'https://github.com/jdluis/TalentMatch',
+      server: 'https://github.com/jdluis/TalentMatch',
     },
-    demo: 'https://flexylearn.netlify.app',
+    demo: 'https://delightful-mite-sarong.cyclic.app/',
     description:
       'The app is a developer search engine that helps companies find talented developers based on specific criteria such as skill set, experience level, and location. ',
-    techStack: ['JSX', 'TailwindCSS', 'React', 'Express', 'MongoDb', 'Mongoose', 'Ayax'],
+    techStack: ['ES6', 'HTML5', 'CSS3', 'TailwindCSS', 'Express', 'MongoDb', 'Mongoose', 'Ayax', "Handelbars"],
     preview_img: '/assets/images/logoTalentMatch.png',
   },
   {
@@ -37,13 +37,13 @@ const projects = [
     subTitle: 'Practice',
     title: 'The Sun Rises Red',
     github: {
-      client: 'https://github.com/jdluis/flexi-learn-client',
-      server: 'https://github.com/jdluis/flexi-learn-server',
+      client: 'https://github.com/jdluis/The-Sun-Rises-Red',
+      server: 'https://github.com/jdluis/The-Sun-Rises-Red',
     },
-    demo: 'https://flexylearn.netlify.app',
+    demo: 'https://jdluis.github.io/The-Sun-Rises-Red/',
     description:
       'The dark time rise again, the land of the forgotten humanity is in danger one more time, orc are raised again in the middle heath, we must save them. Use your hero to prevent the orcs from approaching the towns and cities. The more we kill, the more lives we save.',
-    techStack: ['JSX', 'TailwindCSS', 'React', 'Express', 'MongoDb', 'Mongoose', 'Ayax'],
+    techStack: ['ES6', 'OPP', 'HTML5', 'CSS3'],
     preview_img: '/assets/images/theSunRisesRed.png',
   },
 ];

@@ -18,12 +18,14 @@ function index(props) {
       </header>
       <main className='main-container'>
         <section className='left-container'>
-          <img
-            width={'250px'}
-            height={'250px'}
-            src={project.preview_img}
-            alt={`${project.title} logo`}
-          />
+          <a target={'_blank'} href={project.demo}>
+            <img
+              width={'250px'}
+              height={'250px'}
+              src={project.preview_img}
+              alt={`${project.title} logo`}
+            />
+          </a>
         </section>
         <section className='right-container'>
           <header>
