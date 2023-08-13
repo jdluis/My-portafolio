@@ -1,0 +1,34 @@
+name: Build and Deploy Vite + React App
+
+on:
+  push:
+    branches:
+      - master  # Cambia esto al nombre de tu rama principal si es diferente
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18.15.0'  # Versión de Node.js que deseas
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build the app
+        run: npm run build  # Ajusta este comando según tus scripts de construcción
+
+      - name: Deploy to Hostinger
+        uses: easingthemes/ssh-deploy@v2
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}  # Asegúrate de configurar esta variable en los secretos del repositorio
+          remote-branch: master  # Rama en la que deseas desplegar
+          remote-host: jdluis.com  # Cambia esto a tu dominio en Hostinger
+          remote-user: ${{ secrets.HOSTINGER_USER }}  # Cambia esto a tu usuario en Hostinger
+          source: dist/  # Carpeta de salida de la construcción de Vite
