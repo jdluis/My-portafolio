@@ -23,12 +23,3 @@ jobs:
 
       - name: Build the app
         run: npm run build  # Ajusta este comando según tus scripts de construcción
-
-      - name: Deploy to Hostinger
-        uses: easingthemes/ssh-deploy@v2
-        with:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          REMOTE-BRANCH: master
-          REMOTE-HOST: jdluis.com
-          REMOTE-USER: pvtjosephramirezt@gmail.com
-          source: dist/
