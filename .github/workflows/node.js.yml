@@ -27,8 +27,8 @@ jobs:
       - name: Deploy to Hostinger
         uses: easingthemes/ssh-deploy@v2
         with:
-          SSH_PRIVATE_KEY:: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           REMOTE-BRANCH: master
-          REMOTE-HOST: ${{ secrets.REMOTE_HOST }}
-          REMOTE-USER:  ${{ secrets.REMOTE_USER }}
+          REMOTE-HOST: jdluis.com
+          REMOTE-USER: pvtjosephramirezt@gmail.com
           source: dist/
