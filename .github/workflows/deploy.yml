@@ -3,7 +3,7 @@ name: Build and Deploy Vite + React App
 on:
   push:
     branches:
-      - master  # Cambia esto al nombre de tu rama principal si es diferente
+      - main  # Cambia esto al nombre de tu rama principal si es diferente
 
 jobs:
   build:
@@ -27,8 +27,8 @@ jobs:
       - name: Deploy to Hostinger
         uses: easingthemes/ssh-deploy@v2
         with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-          remote-branch: master  # Rama en la que deseas desplegar
-          remote-host: ${{ secrets.HOSTINGER_HOST }}  # Cambia esto a tu dominio en Hostinger
-          remote-user: ${{ secrets.HOSTINGER_USERNAME }}  # Cambia esto a tu usuario en Hostinger
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          host: ${{ secrets.HOSTINGER_HOST }}  # Cambia esto a tu dominio en Hostinger
+          username: ${{ secrets.HOSTINGER_USERNAME }}  # Cambia esto a tu usuario en Hostinger
+          port: 22  # Puerto por defecto para SSH
           source: dist/  # Carpeta de salida de la construcción de Vite
