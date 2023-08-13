@@ -27,8 +27,8 @@ jobs:
       - name: Deploy to Hostinger
         uses: easingthemes/ssh-deploy@v2
         with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}  # Asegúrate de configurar esta variable en los secretos del repositorio
-          remote-branch: master  # Rama en la que deseas desplegar
-          remote-host: ${{ secrets.REMOTE_HOST }}  # Cambia esto a tu dominio en Hostinger
-          remote-user: ${{ secrets.REMOTE_USER }}  # Cambia esto a tu usuario en Hostinger
-          source: dist/  # Carpeta de salida de la construcción de Vite
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          remote-branch: master
+          remote-host: jdluis.com
+          remote-user: pvtjosephramirezt@gmail.com
+          source: dist/
