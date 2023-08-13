@@ -3,7 +3,7 @@ name: Build and Deploy Vite + React App
 on:
   push:
     branches:
-      - main  # Cambia esto al nombre de tu rama principal si es diferente
+      - master  # Cambia esto al nombre de tu rama principal si es diferente
 
 jobs:
   build:
