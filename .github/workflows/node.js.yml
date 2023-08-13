@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '18.15.0'  # Versión de Node.js que deseas
+          node-version: '18.x'  # Versión de Node.js que deseas
 
       - name: Install dependencies
         run: npm install
@@ -29,6 +29,6 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}  # Asegúrate de configurar esta variable en los secretos del repositorio
           remote-branch: master  # Rama en la que deseas desplegar
-          remote-host: jdluis.com  # Cambia esto a tu dominio en Hostinger
-          remote-user: ${{ secrets.HOSTINGER_USER }}  # Cambia esto a tu usuario en Hostinger
+          remote-host: ${{ secrets.REMOTE_HOST }}  # Cambia esto a tu dominio en Hostinger
+          remote-user: ${{ secrets.REMOTE_USER }}  # Cambia esto a tu usuario en Hostinger
           source: dist/  # Carpeta de salida de la construcción de Vite
