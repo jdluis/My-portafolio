@@ -16,7 +16,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 18
+          node-version: 18.15.0
 
       - name: Install dependencies
         run: npm install
@@ -32,6 +32,6 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           script: |
-            cd /path/to/your/hostinger/public_html
+            cd /public_html/project-git/
             rm -rf *
-            cp -R /path/to/your/vue/app/dist/* .
+            cp -R /dist/* .
