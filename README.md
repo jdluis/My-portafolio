@@ -9,3 +9,7 @@
   - Framer Motion
   - react-icons
   - react-router-dom
+
+ ##Others:
+  - .htaccess: Fix Routes problem in Production.
+
