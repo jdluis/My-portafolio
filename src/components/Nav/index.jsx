@@ -10,8 +10,8 @@ import {
 import './index.css';
 import Mobile from './Mobile';
 
-const iconReact = 'src/assets/icons/react.svg';
-const iconVite = 'src/assets/icons/vitejs.svg';
+const iconReact = '/assets/icons/react.svg';
+const iconVite = '/assets/icons/vitejs.svg';
 
 function Nav() {
   //check this handle, doesn't work properly
