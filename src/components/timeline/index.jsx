@@ -58,7 +58,7 @@ const Timeline = () => {
             <p>
               With a clear idea and fully focused on my new professional career, I dive into the world of web pages, tutorials on JavaScript in Udemy, tutorials on advanced CSS and libraries on YouTube. I begin to connect with digital nomads who are already in the position I aspire to be and they advise me on which path to choose. I discover Tailwind CSS and create applications using vanilla JavaScript.
 
-              This year, I open my GitHub account.
+              This year, I open  <a className='links' href="https://github.com/jdluis">my GitHub account</a>.
             </p>
           </div>
         </li>
@@ -69,7 +69,7 @@ const Timeline = () => {
               I continued my studies, completing various certifications on platforms like CoderHouse, Platzi, Telefonica, etc., focused on web development for the frontend and agile methodologies.
             </p>
             <p>
-              It's the year when I managed to find my first job through LinkedIn (IT Services and IT Consulting) as a web developer, which was a very important personal and professional step for me. In September, I stopped working for that company and decided to keep learning, enrolling in a bootcamp at the beginning of next year.
+              It's the year when I managed to find my first job through LinkedIn <a className='links' href="https://www.linkedin.com/company/symbyosys/">Symbyosys</a> (IT Services and IT Consulting) as a web developer, which was a very important personal and professional step for me. In September, I stopped working for that company and decided to keep learning, enrolling in a bootcamp at the beginning of next year.
             </p>
           </div>
         </li>
@@ -77,7 +77,7 @@ const Timeline = () => {
           <div>
             <time>2023</time>
             <p>
-              I'm starting my Bootcamp at Ironhack, specializing in MERN technologies (MongoDB, Express, React, and Node). During the program, I completed a project focused on Object-Oriented Programming (OOP) and two projects focused on FullStack applications, as well as numerous intensive exercises for 2 months.
+              I'm starting my Bootcamp at <a className='links' href="https://www.ironhack.com/es/en/web-development/remote">Ironhack</a>, specializing in MERN technologies (MongoDB, Express, React, and Node). During the program, I completed a project focused on Object-Oriented Programming (OOP) and two projects focused on FullStack applications, as well as numerous intensive exercises for 2 months.
             </p>
           </div>
         </li>
@@ -86,6 +86,8 @@ const Timeline = () => {
             <time>Actualidad</time>
             <p>
               I am constantly learning new technologies and updating the ones I already know, in addition to creating a project that allows me to learn while practicing. The technologies I am focused on are: TypeScript, Nest.js, Jest, and other testing libraries...
+              <br /> <br />
+              In July, I start working at <a className='links' href="https://www.linkedin.com/company/the-wise-dreams/mycompany/">The Wise Dreams</a> , a technology company that utilizes AI and virtual reality, with roles as a web developer and Microsoft support, as well as managing some projects.
             </p>
           </div>
         </li>

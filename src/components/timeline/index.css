@@ -72,6 +72,12 @@
   opacity: 1;
 }
 
+.links {
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--palleta-orange);
+}
+
 @media screen and (max-width: 900px) {
   #timeline ul li div {
     width: 250px;

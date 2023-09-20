@@ -5,6 +5,7 @@ import { SiHandlebarsdotjs } from 'react-icons/si';
 
 import reactIcon from '/assets/icons/react.svg';
 import viteIcon from '/assets/icons/vitejs.svg';
+import jsIcon from '/assets/icons/js_icon.svg';
 import expressIcon from '/assets/icons/icons8-express-js.svg';
 
 import htmlIcon from '/assets/icons/icons8-html-5.svg';
@@ -92,6 +93,7 @@ function About() {
             <h4>Vite</h4>
           </div>
 
+
           <div className='resume-card'>
             <img className='icon' src={expressIcon} />
             <h4>Express</h4>
@@ -126,6 +128,7 @@ function About() {
             <FaNodeJs className='icon color-orange' />
             <h4>Node</h4>
           </div>
+
           <div className='resume-card'>
             <img className='icon' src={htmlIcon} />
             <h4>HTML</h4>
@@ -134,10 +137,22 @@ function About() {
             <img className='icon' src={css3Icon} />
             <h4>CSS3</h4>
           </div>
+
+          <div className='resume-card'>
+            <img className='icon' src={jsIcon} />
+            <h4>JS/ES6</h4>
+          </div>
+
           <div className='resume-card'>
             <img className='icon' src={tailwindIcon} />
             <h4>TailwindCss</h4>
           </div>
+
+          <div className='resume-card'>
+            <FaSass className='icon color-orange' />
+            <h4>Sass</h4>
+          </div>
+
           <div className='resume-card'>
             <img className='icon' src={boostrapIcon} />
             <h4>Boostrap</h4>
