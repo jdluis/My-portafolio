@@ -9,7 +9,7 @@ function Works() {
 
   const handleSelectedProject = (projectData) => {
     setProjectSelect(projectData);
-    document. getElementById('actual_project'). scrollIntoView()
+    document.getElementById('actual_project'). scrollIntoView()
   };
 
   return (
