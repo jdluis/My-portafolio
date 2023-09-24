@@ -60,6 +60,7 @@
   top: 0;
   right: 0;
   border-left: 1px dotted rgb(152, 152, 152);
+  background-color: var(--palleta-dark);
 }
 
 #menu-container .icon-container {

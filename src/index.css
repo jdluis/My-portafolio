@@ -16,10 +16,11 @@ body {
   background-color: var(--palleta-dark);
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
+  z-index: 999999999;
 
   /*Animacion, desactivada por ahora*/
-  /*
-    background-color: #568091;
+  
+/*     background-color: #568091;
     filter: progid: DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#568091', endColorstr='#029797');
     background-image: url(//img.alicdn.com/tps/TB1d.u8MXXXXXXuXFXXXXXXXXXX-1900-790.jpg);
     background-size: 100%;
@@ -30,9 +31,14 @@ body {
     background-image: -o-linear-gradient(45deg, #19181a, #1e1812);
     background-image: linear-gradient(135deg, #291d21, #020202);
     text-align: center;
-    margin: 0px;
+    margin: 0px; */
+}
 
-    */
+#bg_canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
 }
 
 ul {

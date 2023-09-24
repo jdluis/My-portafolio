@@ -6,11 +6,11 @@ function index(props) {
   const { project } = props;
 
   if (project === null) {
-    return 'Select one Porject';
+    return <p id='actual_project'>Select one Porject</p> ;
   }
 
   return (
-    <div className='project-container'>
+    <div id='actual_project' className='project-container'>
       <header className='title-container'>
         <h4 className='color-orange'>{project.id}.</h4>
         <h3>{project.title}</h3>

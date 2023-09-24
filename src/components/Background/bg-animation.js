@@ -5041,15 +5041,15 @@ THREE.Loader.prototype = {
   addStatusElement: function () {
     var a = document.createElement('div');
     a.style.position = 'absolute';
-    a.style.right = '0px';
-    a.style.top = '0px';
+    a.style.right = '0';
+    a.style.top = '0';
     a.style.fontSize = '0.8em';
     a.style.textAlign = 'left';
     a.style.background = 'rgba(0,0,0,0.25)';
     a.style.color = '#fff';
     a.style.width = '120px';
     a.style.padding = '0.5em 0.5em 0.5em 0.5em';
-    a.style.zIndex = 1e3;
+    a.style.zIndex = 0;
     a.innerHTML = 'Loading ...';
     return a;
   },
@@ -16318,6 +16318,7 @@ animate();
 
 function init() {
   container = document.createElement('div');
+  container.setAttribute("id", "bg_canvas");
   document.body.appendChild(container);
 
   camera = new THREE.PerspectiveCamera(120, window.innerWidth / window.innerHeight, 1, 10000);

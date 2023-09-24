@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import './style.css';
-import { BsGithub } from 'react-icons/bs';
 
 const Hexagono = ({ titulo, coverImg }) => {
   const [hover, setHover] = useState(false);
