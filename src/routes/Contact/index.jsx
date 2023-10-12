@@ -54,15 +54,15 @@ function Contact() {
           <ul className='list-container'>
             <li className='li-list'>
               <FaLinkedin className='icon' />
-              <a href='www.linkedin.com/in/jdluis'>linkedin</a>
+              <a target='_blank' href='https:/www.linkedin.com/in/jdluis'>linkedin</a>
             </li>
             <li className='li-list'>
               <FaInstagram className='icon' />
-              <a href='www.instagram.com/danieldeluis'>instagram</a>
+              <a target='_blank' href='https://www.instagram.com/danieldeluis'>instagram</a>
             </li>
             <li className='li-list'>
               <FaTwitter className='icon' />
-              <a href='https://twitter.com/JdLuisDev'>twitter</a>
+              <a target='_blank' href='https://twitter.com/JdLuisDev'>twitter</a>
             </li>
           </ul>
         </div>
