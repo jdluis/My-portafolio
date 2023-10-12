@@ -29,10 +29,12 @@ function Contact() {
         <div className='wrapper'>
           <div className='mail'>
             <div className='cover'></div>
+            <a href="mailto:jdluisdev@gmail.com">
             <div className='letter'>
               <h2> Contact Me </h2>
               <FaMobileAlt className='icon' />
             </div>
+            </a>
           </div>
         </div>
         <div className='container-of-lists'>
