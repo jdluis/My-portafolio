@@ -21,7 +21,7 @@ function Mobile() {
 
   return (
     <div hidden id='mobile-nav-container'>
-      <div className={isMenuOpen ?? 'hidden'}>
+      <div className={isMenuOpen ? 'hidden' : undefined}>
         <button className='btn-open' onClick={handleOpenMenu}>
           <RiMenuUnfoldLine />
         </button>
