@@ -47,7 +47,7 @@ em {
   align-items: center;
   justify-content: space-between;
   gap: 14px;
-  margin-top: 40px;
+  margin: 40px auto auto auto;
 }
 
 .resume-card {

@@ -45,6 +45,7 @@ function Nav() {
           <div className='img-container'>
             <img src={iconReact} alt='react icon' />
             <img src={iconVite} alt='vite icon' />
+            {/* <Link to={"/3dMode"}>3D</Link> */}
           </div>
           <div onClick={handleGoBottom} className='arrow-container '>
             <RiArrowDownLine className='arrow' />
