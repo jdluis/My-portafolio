@@ -1,7 +1,8 @@
 import React from 'react';
 import './index.css';
 import { FaCode, FaDna, FaFlag, FaSass, FaNodeJs, FaGithub, FaGitAlt } from 'react-icons/fa';
-import { SiHandlebarsdotjs } from 'react-icons/si';
+import { SiTypescript } from "react-icons/si";
+import { SiPython } from "react-icons/si";
 
 import reactIcon from '/assets/icons/react.svg';
 import viteIcon from '/assets/icons/vitejs.svg';
@@ -13,7 +14,6 @@ import css3Icon from '/assets/icons/icons8-css3.svg';
 import mongodbIcon from '/assets/icons/mongodbIcon.svg';
 import figmaIcon from '/assets/icons/icons8-figma.svg';
 import tailwindIcon from '/assets/icons/icons8-tailwind-css.svg';
-import boostrapIcon from '/assets/icons/boostrap.svg';
 import { Timeline } from '../../components/timeline';
 
 function About() {
@@ -115,8 +115,8 @@ function About() {
           </div>
 
           <div className='resume-card'>
-            <SiHandlebarsdotjs className='icon color-black bg-white border-circle' />
-            <h4>Handlebars</h4>
+            <SiTypescript className='icon color-blue' />
+            <h4>TypeScript</h4>
           </div>
 
           <div className='resume-card'>
@@ -154,8 +154,8 @@ function About() {
           </div>
 
           <div className='resume-card'>
-            <img className='icon' src={boostrapIcon} />
-            <h4>Boostrap</h4>
+            <SiPython className='icon color-python' />
+            <h4>Python</h4>
           </div>
         </div>
       </div>
