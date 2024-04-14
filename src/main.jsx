@@ -6,6 +6,7 @@ import { Home } from './routes/Home';
 import { About } from './routes/About';
 import { Works } from './routes/Works';
 import { Contact } from './routes/Contact';
+import Mode3D from './routes/3DMode';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='about' element={<About />} />
         <Route path='works' element={<Works />} />
         <Route path='contact' element={<Contact />} />
+        <Route path='3dMode' element={<Mode3D />} />
         <Route path='*' element={<Navigate replace to='/' />} />
       </Route>
     </Routes>
