@@ -78,16 +78,18 @@ const Timeline = () => {
             <time>2023</time>
             <p>
               I'm starting my Bootcamp at <a className='links' href="https://www.ironhack.com/es/en/web-development/remote">Ironhack</a>, specializing in MERN technologies (MongoDB, Express, React, and Node). During the program, I completed a project focused on Object-Oriented Programming (OOP) and two projects focused on FullStack applications, as well as numerous intensive exercises for 2 months.
+              <br /> <br />
+              In July, I start working at <a className='links' href="https://www.linkedin.com/company/the-wise-dreams/mycompany/">The Wise Dreams</a> , a technology company that utilizes AI and virtual reality, with roles as a full stack web developer.
             </p>
           </div>
         </li>
         <li>
           <div>
-            <time>Actualidad</time>
+            <time>2024-Actualidad</time>
             <p>
-              I am constantly learning new technologies and updating the ones I already know, in addition to creating a project that allows me to learn while practicing. The technologies I am focused on are: TypeScript, Nest.js, Jest, and other testing libraries...
-              <br /> <br />
-              In July, I start working at <a className='links' href="https://www.linkedin.com/company/the-wise-dreams/mycompany/">The Wise Dreams</a> , a technology company that utilizes AI and virtual reality, with roles as a web developer and Microsoft support, as well as managing some projects.
+            Until now, I used to work with TypeScript, React, React Native, Tailwind CSS, Express, and MongoDB. 
+            <br /> <br />
+            On February 7th, <span className='links'>I moved to Hamburg, Germany,</span> and continue working remotely for the same company.
             </p>
           </div>
         </li>
