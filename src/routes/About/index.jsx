@@ -59,7 +59,7 @@ function About() {
             <div className='resume-card'>
               <FaFlag className='icon' />
               <h4>Location</h4>
-              <p>Canary Isl, Spain</p>
+              <p>Hamburg, Germany</p>
             </div>
           </div>
         </div>
