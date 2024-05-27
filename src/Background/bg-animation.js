@@ -6845,7 +6845,7 @@ THREE.CanvasRenderer = function (a) {
   function i(a, b) {
     if (W !== a || F !== b) t.setLineDash([a, b]), (W = a), (F = b);
   }
-  console.log('THREE.CanvasRenderer', THREE.REVISION);
+  
   var k = THREE.Math.smoothstep,
     a = a || {},
     l = this,

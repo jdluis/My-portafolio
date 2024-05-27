@@ -6,6 +6,7 @@ import { Home } from './routes/Home';
 import { About } from './routes/About';
 import { Works } from './routes/Works';
 import { Contact } from './routes/Contact';
+import { ClientForm } from './routes/ClientForm';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='contact' element={<Contact />} />
         <Route path='*' element={<Navigate replace to='/' />} />
       </Route>
+      <Route path='clientform' element={<ClientForm />} />
     </Routes>
   </BrowserRouter>,
 );

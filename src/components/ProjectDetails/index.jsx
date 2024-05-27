@@ -6,11 +6,12 @@ function index(props) {
   const { project } = props;
 
   if (project === null) {
-    return <p id='actual_project'>Select one Porject</p> ;
+    /*La opcion seria recuperar el alto de un proyecto, lo que ocupa o hacer un skeleton para que luego se muestre correctamente al scrolear*/
+    return <div className='separator '><p  id='actual_project'>Select one Porject</p></div> ;
   }
 
   return (
-    <div id='actual_project' className='project-container'>
+    <div key={project.id} id='actual_project' className='project-container'>
       <header className='title-container'>
         <h4 className='color-orange'>{project.id}.</h4>
         <h3>{project.title}</h3>
@@ -34,8 +35,8 @@ function index(props) {
           </header>
           <p className='description'>{project.description}</p>
           <ul className={'list-container'}>
-            {project.techStack.map((teach) => {
-              return <li className={'list-item'}>{teach}</li>;
+            {project.techStack.map((teach, index) => {
+              return <li key={index} className={'list-item'}>{teach}</li>;
             })}
           </ul>
 
