@@ -41,7 +41,7 @@ function Contact() {
           <ul className='list-container'>
             <li className='li-list'>
               <FaMapMarkerAlt className='icon' />
-              <h4>Canary Islands, Spain</h4>
+              <h4>Hamburg, Germany</h4>
             </li>
             <li className='li-list'>
               <FaMobileAlt className='icon' />

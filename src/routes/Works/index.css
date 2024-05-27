@@ -5,11 +5,11 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  gap: 20px;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 10px;
   box-sizing: border-box;
-  margin-right: 120px;
+  margin-right: 100px;
 }
 
 /*--> Cards */
@@ -24,14 +24,12 @@
 
 .card:nth-child(even) {
   position: relative;
-  bottom: 80px;
   left: 50px;
 }
 
 .card:nth-child(odd) {
   position: relative;
-  bottom: -20px;
-  left: 80px;
+  left: 50px;
 }
 
 /* Responsive */
