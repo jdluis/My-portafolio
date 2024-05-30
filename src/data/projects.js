@@ -46,6 +46,21 @@ const projects = [
     techStack: ['ES6', 'OPP', 'HTML5', 'CSS3'],
     preview_img: '/assets/images/theSunRisesRed.png',
   },
+  {
+    id: '004',
+    type: 'Machine Learning',
+    subTitle: 'Practice',
+    title: 'My First ML AI: Intruder Detector',
+    github: {
+      client: 'https://github.com/jdluis/myFirstAI',
+      server: 'https://github.com/jdluis/myFirstAI',
+    },
+    demo: 'https://my-first-ai-five.vercel.app/',
+    description:
+      `This project is an exercise inspired by the course "Build a Web Based Smart Camera in JavaScript" offered by Google for Developers and taught by Jason Mayes. Leveraging the knowledge available up to the specified date, I've developed an application that demonstrates the integration of machine learning models into a web environment.`,
+    techStack: ['ES6', 'Vite', 'TensorFlow.js', 'HTML & CSS', "WebSockets** soon"],
+    preview_img: '/assets/images/myfristai.png',
+  },
 ];
 
 export default projects;
