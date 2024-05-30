@@ -71,6 +71,11 @@ p:last-child {
   margin-bottom: 0;
 }
 
+.homeBtn {
+  cursor: pointer;
+  color: var(--palleta-orange);
+}
+
 @media (max-width: 600px) {
   form {
     padding: 10px;

@@ -1,27 +1,37 @@
 import React from 'react'
 import emailjs from 'emailjs-com';
+import { useNavigate } from 'react-router-dom';
+import { FaHome } from 'react-icons/fa';
+import { toast } from 'react-toastify';
 import './index.css';
 
 function ClientForm() {
-    
-    const {VITE_EMAILJS_SERVICE_ID, VITE_EMAILJS_TEMPLATE_ID, VITE_EMAILJS_USER_ID} = import.meta.env
-        const handleSubmit = (event) => {
-          event.preventDefault();
-      
-          emailjs.sendForm(VITE_EMAILJS_SERVICE_ID, VITE_EMAILJS_TEMPLATE_ID, event.target, VITE_EMAILJS_USER_ID)
+    const navigate = useNavigate()
+
+    const { VITE_EMAILJS_SERVICE_ID, VITE_EMAILJS_TEMPLATE_ID, VITE_EMAILJS_USER_ID } = import.meta.env
+    const handleSubmit = (event) => {
+        event.preventDefault();
+
+        emailjs.sendForm(VITE_EMAILJS_SERVICE_ID, VITE_EMAILJS_TEMPLATE_ID, event.target, VITE_EMAILJS_USER_ID)
             .then((result) => {
-                console.log(result.text);
-                alert('Form submitted successfully!');
+                toast.info('Form submitted successfully!', { position: "bottom-right" })
+                goHome()
             }, (error) => {
-                console.log(error.text);
-                alert('An error occurred, please try again.');
+                toast.error('An error occurred, please try again. Error: ' + error.message, { position: "bottom-right" })
             });
-      
-          event.target.reset(); // Reset the form after submission
-        };
+
+        event.target.reset(); // Reset the form after submission
+    };
+
+    const goHome = () => {
+        navigate("/")
+    }
 
     return (
         <form onSubmit={handleSubmit} id='clientform' >
+            <button className='homeBtn' onClick={goHome}>
+                <FaHome size={"20px"} />
+            </button>
             <h1>Official Website Project Inquiry Form for JDLuisDev</h1>
             <p>Dear Potential Client,</p>
             <p>At JDLuisDev, we strive to provide high-quality web development services tailored to your specific needs. To better understand your requirements and provide you with an accurate project estimate, we kindly request that you complete the following inquiry form.</p>
